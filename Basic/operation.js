@@ -1,0 +1,12 @@
+let a=20;
+let b=10;
+let c=a+b;
+let d=a-b;
+let e=a*b;
+let f=a/b;
+let h=a%b;
+console.log("The Sum is :"+c);
+console.log("The Division is :"+d);
+console.log("The Multiplication is :"+e);
+console.log("The divison is : "+f);
+console.log("The modulo is :"+h);
