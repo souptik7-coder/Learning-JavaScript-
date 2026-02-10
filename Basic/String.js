@@ -1,0 +1,17 @@
+let name="Campus Hub";
+console.log(name);
+let role="Founder";
+console.log(role);
+let char='a';
+let num='123';
+let sentecne='This is "apple"';
+console.log(sentecne);
+console.log(char);
+console.log(num);
+console.log(name[0]);
+console.log(name[2]);
+console.log(name.length);
+let name1="Study";
+let name2="Materials";
+let name3=" ";
+console.log(name1+name3+name2);
