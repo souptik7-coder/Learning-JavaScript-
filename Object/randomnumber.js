@@ -7,7 +7,7 @@ num=Math.floor(num);  // get nearest smallest value
  num=num+1;
  console.log(num);
 
-// in one line code =>> 
+// in one line
 // let num=(Math.floor(Math.random()*10)+1);
 // console.log(num);
 
