@@ -3,3 +3,5 @@
 # String
 # Array
 # object
+# this keyword
+# arrow function
