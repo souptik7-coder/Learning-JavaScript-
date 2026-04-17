@@ -5,3 +5,5 @@
 # object
 # this keyword
 # arrow function
+# Array methods
+# DOM Manipulation
