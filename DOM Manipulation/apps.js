@@ -16,4 +16,4 @@ body.appendChild(h3);
 h3.innerHTML="I am blue h3";
 h3.style.color="blue";
 
-// 3. 
+// 3. a <div> with a black border and pink background color with the following 
