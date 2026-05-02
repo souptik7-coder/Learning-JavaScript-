@@ -23,9 +23,24 @@
 // img.setAttribute("class","images");
 // console.log(img.getAttribute("class"));
 
-let links=document.querySelectorAll(".box a");
-for(let i=0;i<links.length;i++){
-    links[i].style.color="red";
-}
+// let links=document.querySelectorAll(".box a");
+// for(let i=0;i<links.length;i++){
+//     links[i].style.color="red";
+// }
 
 
+// let heading=document.querySelector("h1");
+// heading.classList.add("green");
+// heading.classList.toggle("underline");
+// heading.classList.toggle("underline");
+// heading.classList.toggle("green");
+
+
+// - Parent Element , children , previousElementSibling , 
+
+// let h4=document.querySelector("h4");
+// console.log(h4.parentElement);
+// let box=document.querySelector(".box");
+// console.log(box.children);  // h4 and ul
+// let img=document.querySelector("img");
+// console.log(img.previousElementSibling);  // h1
