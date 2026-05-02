@@ -44,3 +44,13 @@
 // console.log(box.children);  // h4 and ul
 // let img=document.querySelector("img");
 // console.log(img.previousElementSibling);  // h1
+
+let newp=document.createElement("p");
+console.dir(newp);
+newp.innerHTML="hi ! I am a newp";
+let body=document.querySelector("body");
+body.appendChild(newp);
+
+let button=document.createElement("button");
+button.innerText="click me";
+body.appendChild(button);
