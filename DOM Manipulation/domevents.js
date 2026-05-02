@@ -22,3 +22,12 @@ function sayhello(){
 function sayname(){
     console.log("Campus Hub");
 }
+
+let box=document.querySelector(".box");
+box.addEventListener("click",function(){
+    console.log("box was clicked");
+})
+let p=document.querySelector("p");
+p.addEventListener("click",function(){
+    console.log("paragraph was clicked");
+})
