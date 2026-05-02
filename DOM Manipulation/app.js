@@ -54,3 +54,10 @@ body.appendChild(newp);
 let button=document.createElement("button");
 button.innerText="click me";
 body.appendChild(button);
+button.classList.add("color");
+let p=document.querySelector("p");
+p.append(button); // last
+p.prepend(button); // first
+p.insertAdjacentElement("beforebegin",button);
+body.removeChild(button);
+p.remove();
