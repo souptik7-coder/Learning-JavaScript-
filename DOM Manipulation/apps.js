@@ -16,4 +16,18 @@ body.appendChild(h3);
 h3.innerHTML="I am blue h3";
 h3.style.color="blue";
 
-// 3. a <div> with a black border and pink background color with the following 
+// 3. a <div> with a black border and pink background color with the following elements inside of it 
+// another <h1> says that "I am in div"  a <p> that ays "ME TOO! "
+
+let div=document.createElement("div");
+body.appendChild(div);
+div.style.backgroundColor="pink";
+div.style.border="2px solid black";
+div.style.padding="10px";
+let h1=document.createElement("h1");
+h1.innerHTML="I am in div";
+let p1=document.createElement("p");
+p1.innerHTML="ME TOO!";
+p1.style.fontWeight="bolder";
+div.appendChild(h1);
+div.appendChild(p1);
