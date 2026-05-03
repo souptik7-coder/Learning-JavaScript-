@@ -111,14 +111,34 @@
 
 // -- mini activity - paragraph editor
 
-let form=document.querySelector("form");
-form.addEventListener("submit",function(event){
-    event.preventDefault();
-    console.log("form submitted");
+// let form=document.querySelector("form");
+// form.addEventListener("submit",function(event){
+//     event.preventDefault();
+//     console.log("form submitted");
+// })
+// let p=document.querySelector("p");
+// let input=document.querySelector("input");
+// input.addEventListener("input",function(){
+//     console.log(input.value);
+//     p.innerText=this.value;
+// })
+
+// --- event.stopPropagation() ---
+
+let div=document.querySelector("div");
+let ul=document.querySelector("ul");
+let lis=document.querySelectorAll("li");
+div.addEventListener("click",function(event){
+    event.stopPropagation();
+    console.log("div was clicked");
 })
-let p=document.querySelector("p");
-let input=document.querySelector("input");
-input.addEventListener("input",function(){
-    console.log(input.value);
-    p.innerText=this.value;
+ul.addEventListener("click",function(event){
+    event.stopPropagation();
+    console.log("ul was clicked");
 })
+for(li of lis){
+    li.addEventListener("click",function(event){
+        event.stopPropagation();
+        console.log("li was clicked");
+        })
+}
