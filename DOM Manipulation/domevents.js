@@ -90,3 +90,35 @@
 //     // console.log(pass.value);
 // })
 
+
+//  -- Change Event & Input Event
+
+// let form = document.querySelector("form");
+// form.addEventListener("submit",function(event){
+//     event.preventDefault();
+// })
+// let user=document.querySelector("#user");
+// user.addEventListener("change",function(){
+//     console.log("change event");
+//     console.log("final value=",user.value);
+// })
+// let password=document.querySelector("#pass");
+// password.addEventListener("input",function(){
+//     console.log("input event");
+//     console.log(password.value);
+// })
+
+
+// -- mini activity - paragraph editor
+
+let form=document.querySelector("form");
+form.addEventListener("submit",function(event){
+    event.preventDefault();
+    console.log("form submitted");
+})
+let p=document.querySelector("p");
+let input=document.querySelector("input");
+input.addEventListener("input",function(){
+    console.log(input.value);
+    p.innerText=this.value;
+})
