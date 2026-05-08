@@ -1,0 +1,27 @@
+h1{
+    color:red;
+}
+.addtask{
+    background-color: blueviolet;
+    color:whitesmoke
+}
+.addtask:hover{
+    background-color: rgb(227, 42, 42);
+    color:white;
+}
+.delete{
+    background-color: chocolate;
+    color:whitesmoke;
+}
+.delete:hover{
+    background-color: cadetblue;
+    color:white;
+}
+input{
+    background-color: darkgreen;
+    color:white;
+}
+input::placeholder{
+    opacity: 0.9;
+    color: rgb(44, 44, 60);
+}
