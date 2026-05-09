@@ -8,4 +8,3 @@
 # Array methods
 # DOM Manipulation
 # call Stack - callback hell
-cd 
