@@ -13,6 +13,8 @@ calculator(1,2,(a,b)=>{
 
 
 // -- callback hell --
+
+// here the data execute step by step in 2 seconds
 console.log("loading data1...");
 function getdata(data,nextdata){
     setTimeout(()=>{
