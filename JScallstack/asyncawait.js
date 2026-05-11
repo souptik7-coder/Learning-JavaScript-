@@ -49,4 +49,3 @@ async function newdata(){
 //     console.log("fetching data3...");
 //    await getdata(3);
 //  })();    - function call automatically in browser
-
