@@ -16,7 +16,7 @@
 // }
 // console.log(JSON.stringify(student));
 
-// let url="https://catfact.ninja/fact";
+let url="https://catfact.ninja/fact";
 // fetch(url).then((res)=>{
 //     console.log(res);
 //    return res.json();
@@ -49,6 +49,8 @@
 
 
 async function getdata(){
+
+    try{
     let data=await fetch(url);
     let original= await data.json();
     console.log(original);
@@ -65,6 +67,9 @@ async function getdata(){
     let original3=await data3.json();
     console.log(original3);
     console.log(original3.fact);
+    }catch(err){
+        console.log(err);
+    }
 
 }
 getdata();
