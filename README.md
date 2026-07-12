@@ -44,23 +44,22 @@ Prepare for web development interviews and coding assessments
 
 The repository is organized topic-wise, making it easy to learn JavaScript step by step. Each folder contains well-commented examples and practice code related to a specific concept.
 
-# Learning-JavaScript/
-# │
-# ├── Basics
-# ├── Variables
-# ├── Data Types
-# ├── Operators
-# ├── Conditions
-# ├── Loops
-# ├── Functions
-# ├── Arrays
-# ├── Objects
-# ├── Strings
-# ├── DOM
-# ├── Events
-# ├── Async JavaScript
-# ├── API
-# └── README.md
+ Learning-JavaScript/
+ ├── Basics
+ ├── Variables
+ ├── Data Types
+ ├── Operators
+ ├── Conditions
+ ├── Loops
+ ├── Functions
+ ├── Arrays
+ ├── Objects
+ ├── Strings
+ ├── DOM
+ ├── Events
+ ├── Async JavaScript
+ ├── API
+ └── README.md
 🚀 Getting Started
 Clone this repository:
 git clone https://github.com/souptik7-coder/Learning-JavaScript.git
