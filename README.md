@@ -46,22 +46,21 @@ The repository is organized topic-wise, making it easy to learn JavaScript step 
 
 Learning-JavaScript/
 │
-├── Basics
-├── Variables
-├── Data Types
-├── Operators
-├── Conditions
-├── Loops
-├── Functions
-├── Arrays
-├── Objects
-├── Strings
-├── DOM
-├── Events
-├── ES6
-├── Async JavaScript
-├── Mini Projects
-└── README.md
+# ├── Basics
+# ├── Variables
+# ├── Data Types
+# ├── Operators
+# ├── Conditions
+# ├── Loops
+# ├── Functions
+# ├── Arrays
+# ├── Objects
+# ├── Strings
+# ├── DOM
+# ├── Events
+# ├── Async JavaScript
+# ├── API
+# └── README.md
 🚀 Getting Started
 Clone this repository:
 git clone https://github.com/souptik7-coder/Learning-JavaScript.git
