@@ -4,7 +4,7 @@ const student={
     name: "Souptik",
     marks: 87,
     prop: this, // global scope it's means window
-    getname:function(){
+    getname: function(){
         console.log(this);  // print student object
         return this.name;
     },
@@ -18,7 +18,7 @@ const student={
         },2000);                               // arrow function always see parent objects          
     },
     getinfo2: function(){
-        setTimeout(function(){
+        setTimeout( function(){
             console.log(this)                  // window
         },2000);  
     }
