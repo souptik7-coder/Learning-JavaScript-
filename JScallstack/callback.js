@@ -5,11 +5,25 @@ function sum(a,b){
 function calculator(a,b,sum){
     sum(a,b);
 }
+
+// with normal function 
+
+calculator(1, 2, function (a, b) {
+        console.log(a + b);
+})                               // The output is 3
+
+
 // calculator(1,2,sum);  output is 3 
-// with arrow function  :)-  
+
+
+// with arrow function  :)- 
+
+
 calculator(1,2,(a,b)=>{
     console.log(a+b);
 })               // -- also the output is 3
+
+
 
 
 // -- callback hell --
