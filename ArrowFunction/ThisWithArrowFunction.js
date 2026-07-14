@@ -14,12 +14,12 @@ const student={
     },
     getinfo1: function(){
         setTimeout(()=>{
-            console.log(this)    // student     because arrow function has no this   
-        },2000);                               // arrow function always see parent objects          
+            console.log(this)    // student object                          because arrow function has no this   
+        },2000);                                                            // arrow function always see parent objects          
     },
     getinfo2: function(){
-        setTimeout( function(){
-            console.log(this)                  // window
+        setTimeout(function(){
+            console.log(this);                  // window
         },2000);  
     }
 
