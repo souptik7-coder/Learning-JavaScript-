@@ -49,3 +49,23 @@ async function newdata(){
 //     console.log("fetching data3...");
 //    await getdata(3);
 //  })();    - function call automatically in browser
+
+
+async function hellow() {
+    // throw "Some random error occur";
+    return "Hellow World";
+}
+
+hellow().then((res)=>{
+
+    console.log("Promise Successfull");
+    console.log(res);
+})
+
+hellow().catch((reject)=>{
+    console.log("rejected");
+    console.log(reject);
+})
+
+
+// generally we use try-catch block   
