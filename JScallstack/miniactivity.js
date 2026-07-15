@@ -15,7 +15,7 @@ function changecolor(color,delay){
 }
 async function color(){
     try{
-    await  changecolor("red",2000);
+  await  changecolor("red",2000);
   await  changecolor("green",2000);
   await  changecolor("orange",2000);
   await  changecolor("blue",2000);
