@@ -16,7 +16,7 @@
 // }
 // console.log(JSON.stringify(student));
 
-let url="https://catfact.ninja/fact";
+let url = "https://catfact.ninja/fact";
 // fetch(url).then((res)=>{
 //     console.log(res);
 //    return res.json();
@@ -51,20 +51,20 @@ let url="https://catfact.ninja/fact";
 async function getdata(){
 
     try{
-    let data=await fetch(url);
-    let original= await data.json();
+    let data = await fetch(url);
+    let original = await data.json();
     console.log(original);
     console.log(original.fact);
 
 
-    let data2=await fetch(url);
-    let original2=await data2.json();
+    let data2 = await fetch(url);
+    let original2 = await data2.json();
     console.log(original2);
     console.log(original2.fact);
 
 
-    let data3=await fetch(url);
-    let original3=await data3.json();
+    let data3 = await fetch(url);
+    let original3 = await data3.json();
     console.log(original3);
     console.log(original3.fact);
     }catch(err){
