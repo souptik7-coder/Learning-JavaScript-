@@ -50,7 +50,7 @@ let url = "https://catfact.ninja/fact";
 
 async function getdata(){
 
-    try{
+    try { 
     let data = await fetch(url);
     let original = await data.json();
     console.log(original);
@@ -67,9 +67,10 @@ async function getdata(){
     let original3 = await data3.json();
     console.log(original3);
     console.log(original3.fact);
-    }catch(err){
+    } catch(err) {
         console.log(err);
     }
 
 }
+
 getdata();
