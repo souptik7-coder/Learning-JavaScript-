@@ -16,8 +16,9 @@ async function getP() {
         
         return res.data.fact;
 
-    }catch(err) {
+    } catch(err) {
         console.log(err);
         return "no data found";
     }
 }
+

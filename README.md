@@ -59,8 +59,8 @@ Learning-JavaScript/
 # ├── DOM
 # ├── Events
 # ├── Async JavaScript
-# ├── API
-# └── README.md
+# ├── API  
+# └── Using Axios
 🚀 Getting Started
 Clone this repository:
 git clone https://github.com/souptik7-coder/Learning-JavaScript.git

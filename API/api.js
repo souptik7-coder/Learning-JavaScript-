@@ -73,4 +73,59 @@ async function getdata(){
 
 }
 
-getdata();
+// getdata();
+
+// const url_2 = "https://icanhazdadjoke.com/";
+
+//  async function getJokes () {
+
+//     try {
+//         const config = {headers: {Accept: "application/json"}};
+//         let res = await axios.get(url_2, config);
+//         console.log(res.data);
+//     } catch(err) {
+//         console.log(err);
+//     }
+//  }
+
+//  getJokes();
+
+let url_3 = "http://universities.hipolabs.com/search?name=";
+
+let btn = document.querySelector("button");
+btn.addEventListener("click", async ()=>{
+
+    let country = document.querySelector("input").value;
+    console.log(country);
+    let colleges = await getColleges(country);
+   show(colleges);
+})
+
+function show(colleges) {
+
+    let list = document.querySelector("#list");
+    list.innerText="";
+    for (col of colleges) {
+        console.log(col.name);
+        let li = document.createElement("li");
+        li.innerText = col.name;
+        list.appendChild(li);
+    }
+}
+
+let country = "nepal";
+
+async function getColleges(country) {
+
+    try {
+        let res = await axios.get(url_3 + country);
+        console.log(res.data);
+        return res.data;
+    } catch(err) {
+        console.log(err);
+        return [];
+
+    }
+}
+
+getColleges();
